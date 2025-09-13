@@ -1,17 +1,17 @@
-package dev.attackeight.vh_addon_template;
+package dev.attackeight.companion_tag_init;
 
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.fml.common.Mod;
 import org.slf4j.Logger;
 
-@Mod(VhAddonTemplate.ID)
-public class VhAddonTemplate {
+@Mod(CompanionTagInit.ID)
+public class CompanionTagInit {
 
-    public static final String ID = "just_enough_vh";
+    public static final String ID = "companion_tag_init";
 
     // Directly reference a slf4j logger
     public static final Logger LOGGER = LogUtils.getLogger();
 
-    public VhAddonTemplate() {}
+    public CompanionTagInit() {}
 
 }
